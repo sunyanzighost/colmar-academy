@@ -111,7 +111,9 @@ header{
 
 .orientation,
 .campus,
-.guest{
+.guest,
+.fisma,
+.now-and-then{
   border:1px solid lightgrey;
   width:100%;
   display:flex;
@@ -133,7 +135,9 @@ header{
 
 .orientation .detail,
 .campus .detail,
-.guest .detail{
+.guest .detail,
+.fisma .detail,
+.now-and-then .detail{
   width:65%;
   margin-left:5%;
 }
@@ -156,7 +160,9 @@ header{
 
 .orientation:hover,
 .campus:hover,
-.guest:hover{
+.guest:hover,
+.fisma:hover,
+.now-and-then:hover{
   background-color:Salmon;
 }
 
@@ -171,6 +177,7 @@ header{
 .learning{
   background-color:lightgrey;
   width:100%;
+  padding-top:32px;
 }
 
 .courses{
@@ -204,4 +211,87 @@ header{
   flex-wrap:wrap;
   margin: 32px 72px;
   justify-content: center;
+}
+
+.learning h1{
+  font-family:"Vollkorn", sans-serif;
+  font-weight:900;
+  text-align:center;
+  font-size:40px;
+
+}
+
+.learning h1 span{
+  transition: all 2s ease-out;
+}
+
+.learning h1 span:first-child:hover{
+  font-size:60px;
+  color:MediumSlateBlue;
+}
+
+.learning h1 span:last-child:hover{
+  font-size:60px;
+  color:SandyBrown;
+}
+
+/*Thesis*/
+
+.thesis h1{
+  font-family:"Vollkorn", sans-serif;
+  font-weight:900;
+  text-align:center;
+  font-size:40px;
+  margin:32px auto;
+}
+.video{
+  width:60%;
+    margin-left:24px;
+}
+
+.exhibit{
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.video video{
+  width:100%;
+
+
+}
+
+#exhibit-info{
+  margin-top:0;
+  margin-left:50px;
+}
+
+.video h3{
+  font-family:"Playfair Display",sans-serif;
+  font-size:20px;
+}
+
+.video p{
+  font-family:"Sniglet",sans-serif;
+}
+
+/*Footer*/
+
+footer{
+  height:80px;
+  border-top:1px solid lightgrey;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .copyright{
+  font-family: "Do Hyeon", sans-serif;
+  margin-top:16px;
+  margin-left:24px;
+}
+
+.terms span{
+  font-family:"Playfair Display",sans-serif;
+  margin:16px;
 }
