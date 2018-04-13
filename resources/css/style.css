@@ -1,0 +1,94 @@
+body{
+  margin:0;
+}
+
+/*Header*/
+.logo{
+  display:flex;
+  align-items:center;
+}
+
+.logo img{
+  height:48px;
+}
+
+.logo h2{
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.logo h2 span:first-child{
+  color:darkslategrey;
+}
+
+.logo h2 span:last-child{
+  color:dimgrey;
+}
+
+.navigation ul li{
+  list-style: none;
+  display:inline-block;
+  margin-left:16px;
+  padding:10px;
+  border-radius:10px;
+  transition:all 250ms ease-in 50ms;
+  font-family: "Carrois Gothic", sans-serif;
+}
+
+.navigation ul li:hover{
+  background-color:orange;
+  color:white;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-left:24px;
+  margin-right:24px;
+}
+
+/*Banner*/
+
+.main {
+  background-color:lightgrey;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.banner{
+  width:60%;
+  margin:32px 24px;
+}
+
+.banner img{
+  width:100%;
+}
+
+.slogan {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:30%;
+}
+
+.slogan h1{
+  font-family:"bitter", sans-serif;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.slogan p{
+  font-family:"Questrial", sans-serif;
+  font-size:20px;
+}
+
+.apply-btn{
+  width:100%;
+  background-color:MediumVioletRed;
+  padding:8px;
+  color:white;
+  text-align:center;
+  font-size:30px;
+  font-family:"Hammersmith One", sans-serif;
+  margin-top:20px;
+}
