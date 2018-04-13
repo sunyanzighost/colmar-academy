@@ -92,3 +92,116 @@ header{
   font-family:"Hammersmith One", sans-serif;
   margin-top:20px;
 }
+
+/*Content*/
+
+.content-image{
+  width:60%;
+  margin:32px 24px;
+}
+
+.content-image img{
+  width:100%;
+}
+
+.info{
+  width:40%;
+  margin-top:32px;
+}
+
+.orientation,
+.campus,
+.guest{
+  border:1px solid lightgrey;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s ease-in 100ms;
+}
+
+.info-image{
+  width:35%;
+}
+
+.info-image img{
+  width:100%;
+  height:auto;
+  padding:16px;
+
+}
+
+.orientation .detail,
+.campus .detail,
+.guest .detail{
+  width:65%;
+  margin-left:5%;
+}
+
+.content {
+  display:flex;
+  justify-content: flex-start;
+}
+
+.detail h3{
+  font-family:"Playfair Display",sans-serif;
+  font-size:28px;
+}
+
+.detail p,
+.detail a,
+.content-image p{
+  font-family:"Sniglet",sans-serif;
+}
+
+.orientation:hover,
+.campus:hover,
+.guest:hover{
+  background-color:Salmon;
+}
+
+.content-image h1{
+  font-family:"bitter", sans-serif;
+  font-size:30px;
+  font-weight:bold;
+}
+
+/*Courses*/
+
+.learning{
+  background-color:lightgrey;
+  width:100%;
+}
+
+.courses{
+  width:25%;
+  background-color:white;
+  margin:32px;
+}
+
+.courses img{
+  width:100%;
+}
+
+.course-description{
+  width:85%;
+  margin-top:16px;
+  margin-left:16px;
+}
+
+.course-description h3{
+  font-family:"Berkshire Swash", sans-serif;
+  font-size:2rem;
+}
+
+.course-description p{
+  font-family:"Sniglet",sans-serif;
+  font-size:18px;
+}
+
+.course-selection{
+  display:flex;
+  flex-wrap:wrap;
+  margin: 32px 72px;
+  justify-content: center;
+}
