@@ -8,11 +8,11 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div class="logo desktop">
         <img src="./resources/images/ic-logo.svg" alt="">
         <h2><span>COLMAR</span><span>ACADEMY</span></h2>
       </div>
-      <nav class="navigation">
+      <nav class="navigation desktop">
         <ul>
           <li>On Campus</li>
           <li>Online</li>
@@ -20,6 +20,12 @@
           <li>Sign In</li>
         </ul>
       </nav>
+      <div class="mobile header-mobile">
+        <img src="./resources/images/ic-logo.svg" alt="">
+        <img src="./resources/images/ic-on-campus.svg" alt="">
+        <img src="./resources/images/ic-online.svg" alt="">
+        <img src="./resources/images/ic-login.svg" alt="">
+      </div>
     </header>
     <div class="main">
       <div class="banner">
@@ -32,7 +38,7 @@
       </div>
     </div>
     <div class="content">
-      <div class="content-image">
+      <div class="content-image desktop">
         <img src="./resources/images/information-main.jpg" alt="">
         <h1>It doesn't hurt to keep practicing</h1>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -40,8 +46,11 @@
       </div>
       <div class="info">
         <div class="orientation">
-          <div class="info-image">
+          <div class="info-image desktop">
             <img src="./resources/images/information-orientation.jpg" alt="">
+          </div>
+          <div class="info-image mobile-image">
+            <img src="./resources/images/information-orientation-mobile.jpg" alt="">
           </div>
           <div class="detail">
             <h3>Orientation Date</h3>
@@ -50,8 +59,11 @@
           </div>
         </div>
         <div class="campus">
-          <div class="info-image">
+          <div class="info-image desktop">
             <img src="./resources/images/information-campus.jpg" alt="">
+          </div>
+          <div class="info-image mobile-image">
+            <img src="./resources/images/information-campus-mobile.jpg" alt="">
           </div>
           <div class="detail">
             <h3>Our Campus</h3>
@@ -60,8 +72,11 @@
           </div>
         </div>
         <div class="guest">
-          <div class="info-image">
+          <div class="info-image desktop">
             <img src="./resources/images/information-guest-lecture.jpg" alt="">
+          </div>
+          <div class="info-image mobile-image">
+            <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
           </div>
           <div class="detail">
             <h3>Our Guest Lecture</h3>
@@ -73,7 +88,7 @@
     </div>
     <div class="learning">
       <h1><span>Start </span><span>Learning</span></h1>
-      <div class="course-selection">
+      <div class="course-selection desktop">
         <div class="courses">
           <img src="./resources/images/course-software.jpg" alt="">
           <div class="course-description">
@@ -123,16 +138,23 @@
           </div>
         </div>
       </div>
+        <div class="mobile">Software Engineering</div>
+        <div class="mobile">Computer Art</div>
+        <div class="mobile">Design</div>
+        <div class="mobile">Data</div>
+        <div class="mobile">Business</div>
+        <div class="mobile">Marketing</div>
+      </div>
     </div>
     <div class="thesis">
       <h1>Thesis Exhibit</h1>
         <div class="exhibit">
           <div class="video">
             <video src="./resources/videos/thesis.mp4" controls>Your browser does not support the video tag.</video>
-            <h3>Reimagine urban</h3>
-            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+            <h3 class="desktop">Reimagine urban</h3>
+            <p class="desktop">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
-          <div class="info" id="exhibit-info">
+          <div class="info desktop" id="exhibit-info">
             <div class="fisma">
               <div class="info-image">
                 <img src="./resources/images/thesis-fisma.jpg" alt="">
@@ -158,7 +180,7 @@
       <div class="copyright">
         &copy;2016 Colmar Academy. ALl rights reserved
       </div>
-      <div class="terms">
+      <div class="terms desktop">
         <span>Terms</span>
         <span>Privacy</span>
       </div>

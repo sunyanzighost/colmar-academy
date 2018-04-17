@@ -2,6 +2,11 @@ body{
   margin:0;
 }
 
+.mobile,
+.mobile-image{
+  display:none;
+}
+
 /*Header*/
 .logo{
   display:flex;
@@ -158,6 +163,10 @@ header{
   font-family:"Sniglet",sans-serif;
 }
 
+.detail a{
+  text-decoration: none;
+}
+
 .orientation:hover,
 .campus:hover,
 .guest:hover,
@@ -294,4 +303,106 @@ footer .copyright{
 .terms span{
   font-family:"Playfair Display",sans-serif;
   margin:16px;
+}
+
+@media only screen and (max-width:768px){
+  .desktop{
+    display:none;
+  }
+
+  .mobile,
+  .mobile-image{
+    display:block;
+  }
+
+  .header-mobile{
+    height:64px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .header-mobile img {
+    height:40px;
+  }
+
+  .main,
+  .slogan{
+    display:block;
+  }
+  .banner,
+  .banner img{
+    width:100%;
+  }
+  .banner{margin:0;}
+
+  .slogan{
+    margin:32px 16px;
+    padding-bottom:32px;
+    }
+
+    .slogan{
+      width:90%;
+      margin-left:16px;
+    }
+
+    .slogan h1{
+      font-size:40px;
+    }
+
+    .info{
+      width:100%;
+      margin-top:0;
+      margin-bottom:32px;
+
+    }
+
+    .mobile-image{
+      width:90%;
+    }
+
+    .orientation,
+    .campus,
+    .guest{
+      width:100%;
+      display:block;
+      margin-top:16px;
+      border:none;
+    }
+
+    .detail{
+      padding-left:16px;
+    }
+    .learning {
+      background-color:white;
+      border: 1px solid lightgrey;
+      display:block;
+      padding-bottom:32px;
+    }
+
+    .learning h1{
+      margin:0 auto;
+    }
+
+    .learning .mobile{
+      padding: 16px 1px 24px 16px;
+      margin: 8px auto;
+      background-color: lightgrey;
+      display:block;
+      width:80%;
+      font-family:"Berkshire Swash", sans-serif;
+      font-size:25px;
+    }
+
+    .exhibit{
+      display:block;
+    }
+
+    .video{
+      width:100%;
+      margin: 0 auto;
+      margin-bottom:24px;
+    }
+
 }
